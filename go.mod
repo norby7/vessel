@@ -1,8 +1,8 @@
 module shippy/vessel
 
-replace github.com/norby7/vessel => ../vessel
-
 go 1.13
+
+replace github.com/norby7/vessel => ../vessel
 
 require (
 	github.com/golang/protobuf v1.4.2
