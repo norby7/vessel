@@ -44,6 +44,7 @@ func (s *vesselService) FindAvailable(ctx context.Context, req *pb.Specification
 
 	// Set the vessel as part of the response message type
 	res.Vessel = vessel
+
 	return nil
 }
 
